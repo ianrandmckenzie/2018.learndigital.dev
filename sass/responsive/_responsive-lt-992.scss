@@ -1,0 +1,59 @@
+
+/* This first one fixes a weird Bootstrap bug
+(or a bug in this CSS that couldn't be found) */
+@media (max-width: 992px){
+  .faq-container .empty-panel.faq-panel {
+    height: 257.484px;
+  }
+
+  .faq-container .javascript.faq-panel {
+    height: 514.984px;
+  }
+
+  .faq-container .ux-design.faq-panel {
+    height: 193.109px;
+  }
+
+  .faq-container .cc-panel.faq-panel {
+    height: calc(386.234px / 2);
+  }
+
+  .ios-android {
+    background-color: $light_blue;
+  }
+
+  .ios-android:hover {
+    background-color: $dark_blue;
+    transition: $standard-transition;
+  }
+
+  .project-management {
+     background-color: $light_blue;
+  }
+
+  .project-management:hover {
+    background-color: $light_blue_hover;
+    transition: $standard-transition;
+  }
+
+  .ruby-php-sql {
+    background-color: $dark_blue;
+  }
+
+  .ruby-php-sql:hover {
+    background-color: $dark_blue_hover;
+    transition: $standard-transition;
+  }
+
+  .navbar-brand-words {
+    font-size: 0.6em;
+  }
+
+  .fixed-column {
+    width: 370px;
+  }
+
+  #how-we-made-this .faculty-panel {
+    max-height: 228px;
+  }
+}

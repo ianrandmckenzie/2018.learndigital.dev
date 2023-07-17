@@ -1,0 +1,86 @@
+.serif-body {
+    font-size: 1em;
+    color: gray;
+}
+
+#current-students-info p {
+	font-size: 1.2em;
+	color: gray;
+}
+
+#current-students-info .title-panel-info {
+  color: white;
+}
+
+#current-students-info li {
+	font-size: 1.2em;
+}
+
+/* Megan edit test*/ 
+@media (max-width: 767px){
+  #current-students-info .col-width-container {
+    margin-left: 15px;
+  }
+}
+
+.col-width-container {
+	width: 85%;
+}
+
+h2 {
+	color: #377ab7;
+	text-transform: lowercase;
+	font-weight: 500;
+}
+
+li {
+	color: gray;
+}
+
+h4 {
+	font-weight: 400;
+	text-transform: uppercase;
+	font-size: 1.1em;
+	color: #377ab7;
+	line-height: inherit;
+}
+
+.title-panel-info {
+	line-height: inherit;
+}
+
+#how-we-made-this p {
+	font-size: 1.2em;
+
+}
+
+#how-we-made-this h4 {
+	margin-top: 20px;
+}
+
+#how-we-made-this li {
+	font-size: 1.1em;
+}
+
+#how-we-made-this .faculty-panel:hover {
+    opacity: 1;
+	transition: none;
+}
+
+
+
+#how-we-made-this h1, h3 {
+	text-transform: lowercase;
+}
+
+.about-subtitle {
+	margin-top: 0px;
+	margin-bottom: 20px;
+	font-size: 1em;
+}
+
+
+
+.team-profile-images {
+	margin-top: 25px;
+}

@@ -1,0 +1,372 @@
+.btn .fa {
+  color: $dark_blue;
+}
+
+.btn {
+  background-color: $white;
+  border-radius: 0px;
+}
+
+.slide-modal, .modal-on-modal {
+    width: 0;
+    margin-left: -16px;
+    height: 93vh;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    opacity: 0;
+    background-color: $white;
+    overflow-x: hidden;
+    overflow-y: auto;
+    transition: 0.8s;
+    margin-top: 101px;
+    padding: 0px 15px;
+    border: $border;
+    border-top: none;
+    padding-bottom: 200px;
+}
+
+.modal-on-modal {
+  background-color: $dark_blue;
+  color: $white;
+}
+
+.top-modal-row.row {
+  position: fixed;
+  width: inherit;
+  border-right: $border;
+  background-color: $white;
+  padding-top: 40px;
+  padding-bottom: 15px;
+  z-index: 1000;
+}
+
+.modal-row {
+  margin-top: 110px;
+}
+
+/* Profile Modals */
+.profile-image {
+  position: relative;
+  margin-bottom: 20px;
+}
+/*Megan edit*/
+@media (max-width: 767px){
+  .profile-image {
+    margin-bottom: 35px;
+  }
+}
+
+.profile-label {
+  background-color: $dark_blue;
+  position: absolute;
+  right: 0px;
+  bottom: 15px;
+  padding: 15px;
+  padding-left: 20%;
+}
+
+.profile-label h2, .profile-label h4 {
+  text-transform: lowercase;
+  color: $white;
+  margin: 0px;
+}
+
+.profile-label h4 {
+  text-transform: uppercase;
+  font-size: 0.9em;
+  font-weight: $sans_regular;
+}
+
+.course-code {
+  color: $dark_blue;
+}
+
+.profile-info h4 {
+  color: $dark_blue;
+  text-transform: uppercase;
+  font-size: 1em;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  font-weight: $sans_light;
+}
+
+.profile-info {
+  top: -45px;
+}
+
+.profile-info a, .profile-info li {
+  color: $dark_gray;
+  font-weight: $sans_light;
+  font-size: 0.9em;
+}
+
+.profile-info p {
+  color: $dark_gray;
+}
+
+
+.profile-info hr {
+  width: 100%;
+  border-width: 1px;
+  border-color: $dark_blue;
+}
+
+.profile-info {
+  margin-top: 14px;
+}
+
+.student-info p {
+  font-size: 1.1em;
+}
+
+.student-info .sans-body {
+  font-size: 1em;
+  color: $dark_gray;
+}
+
+.profile-info .row li .fa {
+  color: $dark_gray;
+}
+
+.student-work-container {
+  padding: 0;
+  margin: 0;
+}
+
+.student-work {
+  padding: 2.5px;
+}
+
+.fixed-column {
+  position: fixed;
+}
+
+.student-work h4 {
+  font-weight: $sans_regular;
+}
+
+.profile-label h2 {
+  margin-bottom: 5px;
+  font-size: 2em;
+}
+
+.student-info ul {
+  padding-left: 20px;
+}
+
+.student-info .sans-body, .profile-info .sans-body {
+  font-weight: $sans_light;
+}
+
+.student-info.profile-info {
+  top: -30px;
+}
+
+/* Index modals */
+.faq-modal h2, .faq-modal h3 {
+  text-transform: lowercase;
+  color: $dark_blue;
+  text-align: right;
+}
+
+.faq-modal h2 {
+  font-size: 4em;
+  font-weight: $sans_extrabold;
+  margin-top: 10px;
+}
+
+.faq-modal h3 {
+  opacity: 0.5;
+  font-family: $font_serif;
+  font-weight: $serif_bold;
+  font-size: 3em;
+}
+
+.faq-modal .faq-intro-text {
+  color: $dark_gray;
+  font-size: 1.3em;
+  font-family: $font_sans;
+  font-weight: $sans_light;
+}
+
+.where-who-container .faq-description-text, .where-who-container-2 .faq-description-text {
+  font-family: $font_sans;
+  font-weight: $sans_light;
+  color: $dark_gray;
+  font-size: 1em;
+}
+
+.where-who-container-2 {
+  margin-top: 40px;
+}
+
+.faq-right-column {
+  position: relative;
+}
+
+.caption {
+  margin-top: 15px;
+  font-family: $font_sans;
+  font-weight: $sans_light;
+  font-style: italic;
+  font-size: 0.7em;
+  color: $dark_gray;
+}
+
+.where-who-container {
+  max-width: 70%;
+  position: absolute;
+  left: 15px;
+  bottom: 0;
+  background-color: $white;
+  padding: 10px;
+  padding-right: 25px;
+  padding-top: 0px;
+}
+
+.fadeIn {
+    -webkit-animation-name: fadeIn;
+    animation-name: fadeIn;
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+}
+
+.student-work-image {
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+.student-package-design {
+	margin-top: 40px;
+}
+
+.caption-student-package-design {
+	margin-top: 40px;
+}
+
+.faq-modal-2 {
+  padding-right: 5%;
+}
+
+.modal-fade-image {
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.modal-fade-image img {
+  opacity: 1;
+  transition: 3s;
+}
+
+.box-shadow {
+  box-shadow: 3px 1px 9px #888888;
+}
+
+.where-who-container.box-shadow {
+  box-shadow: 5px -5px 7px #888888;
+  box-sizing: 95%;
+}
+
+.faq-modal-2-caption {
+  position: relative;
+}
+
+.modal-fade-image-caption, .modal-fade-image-caption-2 {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.modal-fade-image-caption {
+  opacity: 1;
+  transition: 3s;
+  padding-right: 15px;
+}
+
+.modal-fade-image-caption-2 {
+  opacity: 0;
+  transition: 3s;
+  padding-right: 15px;
+}
+
+/* JavaScript Panel */
+#javascript-interaction {
+  color: $dark_gray;
+}
+
+#javascript-interaction .rotate {
+  max-width: 75%;
+  margin: 0 auto;
+  margin-top: 35px;
+}
+
+#javascript-interaction .sans-body {
+  font-size: 0.8em;
+  font-weight: $sans_light;
+}
+
+@-webkit-keyframes rotate  {
+  from {
+    -webkit-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+  to {
+    -webkit-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+}
+@keyframes rotate {
+  from {
+    -ms-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+  to {
+    -ms-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+}
+.rotate {
+  -webkit-animation: rotate 15s linear infinite;
+  -moz-animation: rotate 15s linear infinite;
+  -ms-animation: rotate 15s linear infinite;
+  -o-animation: rotate 15s linear infinite;
+  animation: rotate 15s linear infinite;
+}
+
+#html-css-example {
+  color: $dark_gray;
+  background-color: $light_gray;
+  padding: 25px;
+}
+
+#html-css-example h2 {
+  text-align: left;
+}
+
+.info-right-column {
+  margin-top: 15px;
+}
+
+table.lab-schedule {
+  width: 100%;
+}
+
+.lab-schedule td {
+  height: 35px;
+  min-width: 100px;
+  border: $border;
+}
+
+.lab-schedule td.classroom {
+  height: 75px;
+}

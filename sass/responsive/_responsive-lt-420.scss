@@ -1,0 +1,46 @@
+@media (max-width: 420px){
+  /* Nav */
+  .navbar-brand {
+    font-size: 1em;
+  }
+
+  /* Main */
+  .panel, .info-icon, .faculty-panel, #how-we-made-this .faculty-panel {
+    max-height: 205px;
+  }
+
+  .faq-container .empty-panel.faq-panel {
+    height: 200px;
+  }
+
+  .where-who-container {
+    max-width: 85%;
+  }
+
+  .info-icon svg {
+    max-height: 60%;
+    margin: 10px;
+    margin-top: 20px;
+  }
+
+  .top-modal-row.row {
+    padding-top: 60px;
+  }
+
+  #mobile-nav {
+    position: static;
+  }
+
+  main {
+    padding-top: 20px;
+  }
+
+  .slide-modal {
+    margin-top: 0px;
+    height: 100vh;
+  }
+
+  main .container {
+    padding-top: 15px;
+  }
+}

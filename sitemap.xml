@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+<url>
+  <loc>http://nicinteractive.media/</loc>
+  <lastmod>2017-07-31T21:47:54+00:00</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>http://nicinteractive.media/how-we-made-this.html</loc>
+  <lastmod>2017-08-01T14:42:33+00:00</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://nicinteractive.media/index.html</loc>
+  <lastmod>2017-07-31T21:47:54+00:00</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://nicinteractive.media/current-students.html</loc>
+  <lastmod>2017-07-31T21:57:14+00:00</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://nicinteractive.media/faculty.html</loc>
+  <lastmod>2017-08-01T14:32:28+00:00</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://nicinteractive.media/students-alumni.html</loc>
+  <lastmod>2017-08-01T14:38:37+00:00</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://nicinteractive.media/images/current-students/FTP.pdf</loc>
+  <lastmod>2017-07-31T21:47:54+00:00</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.64</priority>
+</url>
+</urlset>

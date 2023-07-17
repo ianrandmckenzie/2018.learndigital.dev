@@ -1,0 +1,74 @@
+@media (max-width: 370px){
+  /* Nav */
+  .navbar-brand {
+    top: 25px;
+    left: 0px;
+  }
+
+  .navbar-brand img {
+    height: 35px;
+  }
+
+  .navbar .social a {
+    padding: 10px;
+  }
+
+  .navbar .social {
+    height: 50px;
+    width: 50px;
+  }
+
+  .fa {
+    font-size: 20px;
+  }
+
+  .panel-info .fa {
+    font-size: 1.2em;
+  }
+
+  .social {
+    height: 30px;
+    width: 30px;
+    padding: 7px;
+  }
+
+  .nav-item {
+    line-height: 10px;
+  }
+
+  .blue-icon {
+    font-size: 6px;
+    bottom: 24px;
+  }
+
+  /* Main Body */
+  body {
+    font-size: 1em;
+  }
+
+  .slide-modal {
+    margin-top: 60px;
+  }
+
+  .dropdown-menu li a {
+    font-size: 0.7em !important;
+  }
+
+  .panel, .info-icon, .faculty-panel, #how-we-made-this .faculty-panel {
+    max-height: 179px;
+  }
+
+  .info-icon {
+    padding: 10px;
+    padding-bottom: 0px;
+  }
+
+  main .info-icon-container .row {
+    padding: 0px 0px;
+    padding-top: 15px;
+  }
+
+  .slide-modal {
+    margin-top: 0px;
+  }
+}
